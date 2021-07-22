@@ -32,5 +32,13 @@ export function HlsPlayer() {
     }
   }, []);
 
-  return <video height="600" id="video" ref={videoEl} controls></video>;
+  return (
+    <video
+      className="w-full"
+      id="video"
+      ref={videoEl}
+      controls={false}
+      autoPlay
+    ></video>
+  );
 }
