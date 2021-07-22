@@ -39,6 +39,7 @@ export function HlsPlayer() {
       ref={videoEl}
       controls={false}
       autoPlay
+      loop
     ></video>
   );
 }
